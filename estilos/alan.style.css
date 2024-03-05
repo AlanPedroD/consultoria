@@ -216,7 +216,9 @@ input[type="checkbox"] {
   gap: 30px;
 }
 
-
+.container-grafico{
+  margin-bottom: 10px;
+}
 
 .container-photo-fundadores{
   /* max-width: 280px; */
