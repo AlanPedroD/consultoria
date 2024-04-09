@@ -19,6 +19,7 @@ console.log(nomeFundadores)
 let footer = document.querySelector('footer')
 console.log(footer)
 
+let strong = document.getElementsByTagName("strong")
 
 
 inputCheckbox.addEventListener('change', function(){
@@ -34,6 +35,7 @@ inputCheckbox.addEventListener('change', function(){
     body.classList.toggle("body-dark")
     artigos.classList.toggle("artigo-segunda-opcao")
     footer.classList.toggle('menu-rodape2')
+    strong[0].style.color = 'white';
   }else{
     iconesCheckbox[1].style.display = 'none';
     iconesCheckbox[0].style.display = 'block';
@@ -41,6 +43,7 @@ inputCheckbox.addEventListener('change', function(){
     body.classList.toggle("body-dark")
     artigos.classList.toggle("artigo-segunda-opcao")
     footer.classList.toggle('menu-rodape2')
+    strong[0].style.color = '#000';
   }
 })
 

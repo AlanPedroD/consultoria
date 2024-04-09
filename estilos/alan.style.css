@@ -99,6 +99,7 @@ input[type="checkbox"] {
 
 .logo img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .banner-principal{
@@ -433,6 +434,10 @@ footer .logo{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+strong{
+  color: #000;
 }
 
 footer .logo-e-redes-sociais{
